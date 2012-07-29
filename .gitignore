@@ -1,0 +1,13 @@
+## tools artifacts ##
+
+#idea:
+*.iml
+.idea
+
+#emacs:
+*~
+
+#maven
+classes.timestamp
+target
+
