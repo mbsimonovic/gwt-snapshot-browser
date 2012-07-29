@@ -10,6 +10,21 @@
 
     <url>https://bitbucket.org/milan/headless-browser</url>
 
+    <organization>
+        <name>University of Zurich, Institute of Molecular Life Sciences</name>
+        <url>http://www.imls.uzh.ch/research/vonmering.html</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>milan</id>
+            <name>Milan Simonovic</name>
+            <email>milan.simonovic@imls.uzh.ch</email>
+            <organization>UZH</organization>
+            <timezone>GMT-1</timezone>
+        </developer>
+    </developers>
+
     <licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -23,6 +38,15 @@
         <developerConnection>scm:hg:https://bitbucket.org/milan/headless-browser</developerConnection>
         <url>http://bitbucket.org/milan/headless-browser</url>
     </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>vmering</id>
+            <name>internal von Mering group repo</name>
+            <url>http://imlslnx-titan.uzh.ch:8080/nexus/content/repositories/vmering/</url>
+        </repository>
+    </distributionManagement>
+
     <issueManagement>
         <system>bitbucket</system>
         <url>http://bitbucket.org/milan/headless-browser/issues</url>
@@ -31,7 +55,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
     </properties>
 
     <dependencies>
@@ -112,20 +135,4 @@
             </plugin>
         </plugins>
     </build>
-    <organization>
-        <name>University of Zurich, Institute of Molecular Life Sciences</name>
-        <url>http://www.imls.uzh.ch/research/vonmering.html</url>
-    </organization>
-
-    <developers>
-        <developer>
-            <id>milan</id>
-            <name>Milan Simonovic</name>
-            <email>milan.simonovic@imls.uzh.ch</email>
-            <organization>UZH</organization>
-            <timezone>GMT-1</timezone>
-        </developer>
-    </developers>
-
-
 </project>
